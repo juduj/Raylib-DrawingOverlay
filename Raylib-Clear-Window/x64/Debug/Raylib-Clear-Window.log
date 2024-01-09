@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\VulkanTestingRepo\Raylib-Clear-Window\Raylib-Clear-Window\main.cpp(44,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\VulkanTestingRepo\Raylib-Clear-Window\Raylib-Clear-Window\main.cpp(44,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Raylib-Clear-Window.vcxproj -> D:\VulkanTestingRepo\Raylib-Clear-Window\x64\Debug\Raylib-Clear-Window.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

@@ -4,8 +4,8 @@
 
 int main()
 {	
-	const int screenWidth = 1920;
-	const int screenHeight = 1080;
+	const int screenWidth = GetScreenWidth();
+	const int screenHeight = GetScreenHeight();
 
 	SetConfigFlags(FLAG_WINDOW_TRANSPARENT); // Configures window to be transparent
 	InitWindow(screenWidth, screenHeight, "Transparent");
@@ -20,8 +20,8 @@ int main()
 
 	Vector2 textSize = MeasureTextEx(GetFontDefault(), text.c_str(), 60, 1);
 	Vector2 textPosition = {
-	static_cast<float>(GetScreenWidth() / 2 - textSize.x / 2),
-	static_cast<float>(GetScreenHeight() / 2 - textSize.y / 2)
+	static_cast<float>(screenWidth / 2 - textSize.x / 2),
+	static_cast<float>(screenHeight / 2 - textSize.y / 2)
 	};
 
 	GetWindowStuff();
